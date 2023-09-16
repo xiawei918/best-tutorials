@@ -1,0 +1,78 @@
+.navbar {
+    padding: 7.5px 0;
+    border-radius: 0;
+    position: relative;
+    transition: all .3s ease-out 0s;
+    display: flex;
+    align-items: center;
+}
+.navbar .collapse-navbar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.collapse-navbar .navbar-nav {
+    margin-left: auto;
+    flex-direction: row;
+    display: flex;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.logo {
+    position: relative;
+    float: left;
+    margin-right: 10px;
+    align-items: center;
+}
+.logo-image {
+    width: 165px;
+    height: 60px;
+    margin-left: 20px;
+}
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.nav-item {
+    position: relative;
+    margin-right: 40px;
+    box-sizing: border-box;
+}
+.navbar li {
+    display: list-item;
+}
+.nav-item a {
+    font-size: 16px;
+    font-weight: 500;
+    transition: all .3s ease-out 0s;
+    padding: 10px 0;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    text-decoration: none;
+}
+.nav-item :hover{
+    color: #fabb17;
+}
+.title {
+    margin-right: auto;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+}
+
+.navbar button, .navbar a {
+    margin-left: 16px;
+}
+
+.navbar a {
+    color: #333;
+    text-decoration: none;
+}

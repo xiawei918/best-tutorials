@@ -24,7 +24,7 @@
     padding-top: 0px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .intro h2 {
     margin-top: 50px;
